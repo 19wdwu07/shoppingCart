@@ -1,5 +1,4 @@
 
-console.log(10+'20');
 var total = 0;
 var cartCount = 0;
 document.getElementById('menBlackLeather').addEventListener('click',function(){

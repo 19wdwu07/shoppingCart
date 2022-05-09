@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+    <script src="https://kit.fontawesome.com/514b9d0fe9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>ShoppingCart</title>
+  </head>
+  <body>
+    <div class="container">
+
+    <nav id="nav" class="nav">
+      <button id="productBtn" class="navBtn" type="button" name="button">Products</button>
+      <button id="cartBtn" class="navBtn" type="button" name="button"><i class="fa-solid fa-cart-shopping myCart"></i></button>
+    </nav>
+
+    <!-- <div class="">
+      <img class="banner" src="image/banner.jpg" alt="">
+
+    </div> -->
+
+    <div id="cartCount">
+
+    </div>
+    <div id="productPage">
+
+
+        <h1>Online Shopping</h1>
+
+        <!-- Product Page -->
+        <!-- Item1 -->
+
+        <div class="row clearfix">
+
+          <div class="col">
+            <img class="productImage" src="image/men-black-leather.jpeg" alt="Men's Leather Shoe Black">
+            <h3 class="description">Drift Leather Shoes</h3>
+            <p class="price">NZ $ 189.99</p>
+            <button id="menBlackLeather" class="addCartBtn" type="button" name="button">Add to cart</button>
+          </div>
+
+
+        <!-- Item2-->
+          <div class="col">
+            <img class="productImage" src="image/men-brown-leather.jpeg" alt="Men's Leather Shoe Brown">
+            <h3>Men's Brown Leather Shoe</h3>
+            <p>NZ $ 199.99</p>
+            <button id="menBrownLeather" class="addCartBtn" type="button" name="button">Add to cart</button>
+          </div>
+
+        <!-- Item3 -->
+
+          <div class="col">
+            <img class="productImage" src="image/woman-black-jandals.jpeg" alt="Women's Jandals Black">
+            <h3>Women's Jandals Black</h3>
+            <p>NZ $ 215.99</p>
+            <button id="womenBlackJandal" class="addCartBtn" type="button" name="button">Add to cart</button>
+          </div>
+
+
+        <!-- Item4 -->
+          <div class="col">
+            <img class="productImage" src="image/women-dotted-leather.jpeg" alt="Women's Dotted Leather">
+            <h3>Women's Dotted Leather</h3>
+            <p>NZ $ 189.99</p>
+            <button id="womenDottedLeather" class="addCartBtn" type="button" name="button">Add to cart</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cart Page -->
+      <div id="cart" class="cart">
+        <h1 class="cartHeading">Cart</h1>
+        <div class="totalContainer">
+        <h2 class="total"> Total: </h2>
+        <h2 id="total" class="total">  </h2>
+      </div>
+
+
+      </div>
+
+    </div>
+    <script src="js/script.js">
+
+    </script>
+  </body>
+</html>
